@@ -1,5 +1,8 @@
-"""Placeholder tests."""
+"""Placeholder tests until the client has real ones."""
 
-def test_placeholder() -> None:
-    """A placeholder test so pytest does not fail."""
-    assert True
+import altissimo.terra
+
+
+def test_package_imports() -> None:
+    """The package imports, which gives coverage something to measure."""
+    assert altissimo.terra.__all__ == []
